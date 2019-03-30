@@ -11,7 +11,8 @@ By examing the data, we noticed data entries are recorded quarterly starting fro
 ## Methodology
 
 ### Times Series Analysis
-
+To do the predictions, we decided to apply the seasonal ARIMA model to model our data. For each province's each variable, depending on the behavior of our information set, a S-ARIMA model with optimal parameters will be selected to do the modeling.
+The optimal parameters for each model will be selected using R-function auto.arima, by choosing the parameters correspond to the lowest Akaike Information Criterion. Also, auto.arima will also select the appropriate order for integration if the time series is non-stationary. Based on our fitted S-ARIMA models, we will be able to do the forecast for future values of those variables such as Entry and Exit for each province, and we will also be able to construct a prediction interval for each future value.
 ### ANOVA
 
 ### Poisson Regression
