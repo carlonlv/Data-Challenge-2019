@@ -18,20 +18,18 @@ By examing the data, we noticed data entries are recorded quarterly starting fro
 
 ## Statistical Results
 
-### Visual Results
-
-![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg) 
-
 ### Tables and Forms
 
 | Geography | Industry | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 |
 |:----------|:---------|---:|---:|---:|---:|---:|---:|---:|---:|
-|    BC     |    52    |3998|3816|3810|3773|3972|3789|3783|3747|
 |    CA     |    52    |24365|23476|23435|23022|24020|23190|23134|22716|
+|    BC     |    52    |3998|3816|3810|3773|3972|3789|3783|3747|
 |    ON     |    52    |10560|10127|10134|9956|10474|10025|10021|9845|
 |    QC     |    52    |3868|3804|3753|3730|3783|3719|3668|3646|
 |    AB     |    52    |3073|2905|2912|2846|3009|2842|2848|2782|
 
+### Visual Results
 
+![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg) 
 
 ## Conclusions
