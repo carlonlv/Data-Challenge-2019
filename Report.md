@@ -20,6 +20,8 @@ By examing the data, we noticed data entries are recorded quarterly starting fro
 
 ### Visual Results
 
+![forecast_Active_00_CA](plots/forecast_Active_00_CA.jpg) 
+
 ### Tables and Forms
 
 ## Conclusions
