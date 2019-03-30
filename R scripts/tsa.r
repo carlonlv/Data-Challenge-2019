@@ -24,9 +24,9 @@ timeseries.predict <- function(data, variable, forecast.time) {
     row.names(predictions) <- NULL
     colname <- NULL
     domain <- c(1,2,3,4)
-    init_year <- 2017
+    init_year <- 2016
     for (j in 1:forecast.time) {
-      current_index <- (4 + j - 1) %% 4
+      current_index <- (1 + j - 1) %% 4
       if (current_index == 0) {
         current_index <- 4
       }
@@ -132,7 +132,7 @@ timeseries.predict <- function(data, variable, forecast.time) {
     domain <- c(1,2,3,4)
     init_year <- 2017
     for (j in 1:forecast.time) {
-      current_index <- (4 + j - 1) %% 4
+      current_index <- (3 + j - 1) %% 4
       if (current_index == 0) {
         current_index <- 4
       }
