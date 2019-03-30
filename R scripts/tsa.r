@@ -5,6 +5,7 @@ timeseries.predict <- function(data, variable, forecast.time) {
   Indus <- NULL
   Geo <- NULL
   if (variable == "Exit") {
+    forecast.time <- forecast.time + 7
     for (i in 1:95) {
       newhope <- data$Exit[((i-1)*71+1):(i*71)]
       newhope <- ts(newhope,frequency = 4)
@@ -110,6 +111,7 @@ timeseries.predict <- function(data, variable, forecast.time) {
     write.csv(prediction, file = "prediction_opening.csv")
     
   } else if (variable == "Closing") {
+    forecast.time <- forecast.time + 1
     for (i in 1:95) {
       newhope <- data$Closing[((i-1)*71+1):(i*71)]
       newhope <- ts(newhope,frequency = 4)
