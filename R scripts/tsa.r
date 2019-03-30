@@ -22,8 +22,16 @@ timeseries.predict <- function(data, variable, forecast.time) {
     }
     row.names(predictions) <- NULL
     colname <- NULL
+    domain <- c(1,2,3,4)
+    init <- 4
+    init_year <- 2017
     for (j in 1:forecast.time) {
-      colname <- c(colname, paste("Q", sep = "", as.character(j)))
+      current_index <- (init + j - 1) %% 4
+      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      if (current_index == 0) {
+        current_index <- 4
+      }
+      colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
     prediction1 <- as.data.frame(predictions)
@@ -50,8 +58,16 @@ timeseries.predict <- function(data, variable, forecast.time) {
     }
     row.names(predictions) <- NULL
     colname <- NULL
+    domain <- c(1,2,3,4)
+    init <- 4
+    init_year <- 2017
     for (j in 1:forecast.time) {
-      colname <- c(colname, paste("Q", sep = "", as.character(j)))
+      current_index <- (init + j - 1) %% 4
+      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      if (current_index == 0) {
+        current_index <- 4
+      }
+      colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
     prediction1 <- as.data.frame(predictions)
@@ -78,8 +94,16 @@ timeseries.predict <- function(data, variable, forecast.time) {
     }
     row.names(predictions) <- NULL
     colname <- NULL
+    domain <- c(1,2,3,4)
+    init <- 4
+    init_year <- 2017
     for (j in 1:forecast.time) {
-      colname <- c(colname, paste("Q", sep = "", as.character(j)))
+      current_index <- (init + j - 1) %% 4
+      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      if (current_index == 0) {
+        current_index <- 4
+      }
+      colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
     prediction1 <- as.data.frame(predictions)
@@ -106,8 +130,16 @@ timeseries.predict <- function(data, variable, forecast.time) {
     }
     row.names(predictions) <- NULL
     colname <- NULL
+    domain <- c(1,2,3,4)
+    init <- 4
+    init_year <- 2017
     for (j in 1:forecast.time) {
-      colname <- c(colname, paste("Q", sep = "", as.character(j)))
+      current_index <- (init + j - 1) %% 4
+      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      if (current_index == 0) {
+        current_index <- 4
+      }
+      colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
     prediction1 <- as.data.frame(predictions)
@@ -134,8 +166,16 @@ timeseries.predict <- function(data, variable, forecast.time) {
     }
     row.names(predictions) <- NULL
     colname <- NULL
+    domain <- c(1,2,3,4)
+    init <- 4
+    init_year <- 2017
     for (j in 1:forecast.time) {
-      colname <- c(colname, paste("Q", sep = "", as.character(j)))
+      current_index <- (init + j - 1) %% 4
+      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      if (current_index == 0) {
+        current_index <- 4
+      }
+      colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
     prediction1 <- as.data.frame(predictions)
