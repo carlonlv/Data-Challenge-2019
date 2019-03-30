@@ -26,7 +26,7 @@ To be more specific, basically, we divided the data set into 95 different subset
 
 
 
-
+**Following are some predictions generate from ARIMA model, visit our GitHub repo for full result.**
 
 ### Some Tables and Forms
 
