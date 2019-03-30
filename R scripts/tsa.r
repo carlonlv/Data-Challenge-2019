@@ -23,14 +23,13 @@ timeseries.predict <- function(data, variable, forecast.time) {
     row.names(predictions) <- NULL
     colname <- NULL
     domain <- c(1,2,3,4)
-    init <- 4
     init_year <- 2017
     for (j in 1:forecast.time) {
-      current_index <- (init + j - 1) %% 4
-      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      current_index <- (4 + j - 1) %% 4
       if (current_index == 0) {
         current_index <- 4
       }
+      current_year <- init_year + floor((3 + j - 1) / 4)
       colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
@@ -59,14 +58,13 @@ timeseries.predict <- function(data, variable, forecast.time) {
     row.names(predictions) <- NULL
     colname <- NULL
     domain <- c(1,2,3,4)
-    init <- 4
     init_year <- 2017
     for (j in 1:forecast.time) {
-      current_index <- (init + j - 1) %% 4
-      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      current_index <- (4 + j - 1) %% 4
       if (current_index == 0) {
         current_index <- 4
       }
+      current_year <- init_year + floor((3 + j - 1) / 4)
       colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
@@ -95,14 +93,13 @@ timeseries.predict <- function(data, variable, forecast.time) {
     row.names(predictions) <- NULL
     colname <- NULL
     domain <- c(1,2,3,4)
-    init <- 4
     init_year <- 2017
     for (j in 1:forecast.time) {
-      current_index <- (init + j - 1) %% 4
-      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      current_index <- (4 + j - 1) %% 4
       if (current_index == 0) {
         current_index <- 4
       }
+      current_year <- init_year + floor((3 + j - 1) / 4)
       colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
@@ -131,14 +128,13 @@ timeseries.predict <- function(data, variable, forecast.time) {
     row.names(predictions) <- NULL
     colname <- NULL
     domain <- c(1,2,3,4)
-    init <- 4
     init_year <- 2017
     for (j in 1:forecast.time) {
-      current_index <- (init + j - 1) %% 4
-      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      current_index <- (4 + j - 1) %% 4
       if (current_index == 0) {
         current_index <- 4
       }
+      current_year <- init_year + floor((3 + j - 1) / 4)
       colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
@@ -167,14 +163,13 @@ timeseries.predict <- function(data, variable, forecast.time) {
     row.names(predictions) <- NULL
     colname <- NULL
     domain <- c(1,2,3,4)
-    init <- 4
     init_year <- 2017
     for (j in 1:forecast.time) {
-      current_index <- (init + j - 1) %% 4
-      current_year <- init_year + floor((init + j - 1) / 4) - 1
+      current_index <- (4 + j - 1) %% 4
       if (current_index == 0) {
         current_index <- 4
       }
+      current_year <- init_year + floor((3 + j - 1) / 4)
       colname <- c(colname, paste(as.character(current_year), "_" ,"Q", sep = "", as.character(domain[current_index])))
     }
     colnames(predictions) <- colname
