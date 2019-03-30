@@ -20,6 +20,8 @@ By examing the data, we noticed data entries are recorded quarterly starting fro
 
 ### Tables and Forms
 
+
+
 | Geography | Industry | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 |
 |:----------|:---------|---:|---:|---:|---:|---:|---:|---:|---:|
 |    CA     |    52    |24365|23476|23435|23022|24020|23190|23134|22716|
