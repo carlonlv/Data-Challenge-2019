@@ -28,7 +28,7 @@ To be more specific, basically we divided the data set into 95 different subsets
 
 
 
-### Tables and Forms
+### Some Tables and Forms
 
 
 
@@ -40,9 +40,11 @@ To be more specific, basically we divided the data set into 95 different subsets
 |    QC     |    52    |3868|3804|3753|3730|3783|3719|3668|3646|
 |    AB     |    52    |3073|2905|2912|2846|3009|2842|2848|2782|
 
-### Visual Results
+### Some Visual Results
 
-![forecast_Active_52_CA](plots/forecast_Active_52_CA.jpg)
+![forecast_Active_52_CA](plots/forecast_Active_52_CA.jpg)  
+
+
 
 
 ## Conclusions
