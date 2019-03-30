@@ -23,11 +23,11 @@ To be more specific, basically we divided the data set into 95 different subsets
 
 For example, consider the retailing industry(44-45), we observed that the number of active companies declines over time.  Around 2010, there is a sharp decline in the retail industry, it then fluctuates for a while until another sharp decline around 2016.  Based on the previous trend of this industry, our time series model predicts(blue part) further declining in this industry.  In order to explain this scenario,  we need to examine the number of opening firms and the number of closing firms.  According to the number of opening firms, it is evident there is a significant declining trend in the number of new companies.  Unlikely, the number of closing firms is consistent on average and has a minor declining trend.  Since fewer companies enter and a similar number of companies quit, the overall number of active firms is shrinking and this matches our model's prediction.  
 
-Plot for number of active firms  
+Number of active firms  
 ![forecast_Active_52_CA](plots/forecast_Active_44-45_CA.jpg)  
-Plot for number of closing firms  
+Number of closing firms  
 ![forecast_Active_52_CA](plots/forecast_Closing_44-45_CA.jpg)   
-Plot for number of opening firms  
+Number of opening firms  
 ![forecast_Active_52_CA](plots/forecast_Opening_44-45_CA.jpg) 
 
 
