@@ -64,7 +64,7 @@ This table represents prediction of the number of active companies in retail ind
 **Number of active firms for retail industry in Canada**  
 ![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg)  
 **Number of openning firms for retail industry in Canada**   
-![forecast_openning_44-45_CA](plots/forecast_Opening_44-45_CA.jpg) 
+![forecast_openning_44-45_CA](plots/forecast_Opening_44-45_CA.jpg)  
 **Number of closing firms for retail industry in Canada**  
 ![forecast_closing_44-45_CA](plots/forecast_Closing_44-45_CA.jpg)   
 
