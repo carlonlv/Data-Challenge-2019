@@ -63,7 +63,7 @@ This table represents prediction of the number of companies'entries in transport
 
 ### Some Visual Results
 
-For the plots presented below, we have the number of companies as the response variable and the number of quarters since Q1 of 2000. The black fraction of the trend represents the data provided and the blue fraction represents the trend predicted using our statistical models. The grey area represents the variability of our predictions, we are 95% confident that the true value lies within this region.  
+For the plots presented below, we have the number of companies as the y-axis and the number of quarters since Q1 of 2000 as the x-axis. The black fraction of the trend represents the data provided and the blue fraction represents the trend predicted using our statistical models. The grey area represents the variability of our predictions, we are 95% confident that the true value lies within this region.  
 
 **Number of active firms for retail industry in Canada**  
 ![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg)  
