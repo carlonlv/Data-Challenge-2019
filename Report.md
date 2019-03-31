@@ -45,6 +45,17 @@ To be more specific, basically, we divided the data set into 95 different subset
 
 This table represents prediction of the number of active companies in retail industry for each area.
 
+  
+| Geography | Industry | 2017_Q4 | 2018_Q1 | 2018_Q2 | 2018_Q3 | 2018_Q4 | 2019_Q1 | 2019_Q2 | 2019_Q3 | 2019_Q4|
+|:----------|:---------|---:|---:|---:|---:|---:|---:|---:|---:|
+|    AB     |   48-49    |127|135|150|147|149|156|166|166|168|
+|    BC     |   48-49    |135|118|158|192|160|131|164|196|161|
+|    CA     |   48-49    |879|761|1063|1068|944|800|1087|1082|952|
+|    ON     |    48-49    |435|288|494|427|467|295|471|393|452|
+|    OC    |    48-49    |87|54|111|122|78|38|85|94|60|
+e
+  
+ 
 
 ### Some Visual Results
 
