@@ -65,7 +65,8 @@ This table represents prediction of the number of companies'entries in transport
 
 **Number of active firms for retail industry in Canada**  
 ![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg)  
-From the plot, we can see that there exists a obvious downward trend in our time series. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, we predict that the number of active firms in retail industry in Canada will decline rapidly in the next few quaters.    
+From the plot, we can see that there exists a obvious downward trend in our time series. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, we predict that the number of active firms in retail industry in Canada will decline rapidly in the next few quaters.   
+
 **Number of openning firms for retail industry in Canada**   
 ![forecast_openning_44-45_CA](plots/forecast_Opening_44-45_CA.jpg)  
 From the plot, we can detect that in this time series plot, there also exists obvious downward trend and strong seasonalities. Therefore, auto.arima will difference the time series for one time and put a seasonal component into the model. Based on this model, we predict the number of openning firms in retail industry in Canada will decline gradually and keep oscillating in the next few quaters.  
