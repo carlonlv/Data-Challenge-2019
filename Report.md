@@ -32,7 +32,7 @@ To be more specific, basically, we divided the data set into 95 different subset
 
 
 
-
+  
 | Geography | Industry | 2017_Q4 | 2018_Q1 | 2018_Q2 | 2018_Q3 | 2018_Q4 | 2019_Q1 | 2019_Q2 | 2019_Q3 | 2019_Q4 |  
 |:----------|:---------|---:|---:|---:|---:|---:|---:|---:|---:|  
 |    CA     |    44-45    |90401|89020|89069|88667|88773||87445|87018|87152|  
@@ -40,6 +40,8 @@ To be more specific, basically, we divided the data set into 95 different subset
 |    ON     |    44-45    |33075|32362|32563|32586|33098|32285|32450|32429|32960|  
 |    QC     |    44-45    |21430|21048|21120|21093|21128|20644|20669|20646|20703|  
 |    AB     |    44-45    |10364|10190|10125|10071|10210|10035|9971|9917|10056|  
+
+  
 
 This table represents prediction of the number of active companies in retail industry for each area.
 
