@@ -56,24 +56,24 @@ For the plots presented below, we have the number of companies as the y-axis and
 
 **Number of active firms for retail industry in Canada**  
 ![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg)  
-From this plot, we can see that there exists a obvious downward trend in our time series. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, we predict that the number of active firms in retail industry in Canada will decline rapidly in the next few quaters.   
+From this plot, we observed a obvious downward trend. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, the number of active firms in retail industry in Canada will decline rapidly in the next few quaters.   
 
 **Number of openning firms for retail industry in Canada**   
 ![forecast_openning_44-45_CA](plots/forecast_Opening_44-45_CA.jpg)  
-In this plot, we can detect that there exists obvious downward trend and strong seasonalities. Therefore auto.arima differences the time series for once and put a seasonal component into the model. Based on this model, we predict that the number of openning firms in retail industry in Canada will decline gradually and keep oscillating in the next few quaters.  
+In this plot, there exists obvious downward trend and strong seasonalities. Therefore auto.arima differences the time series for once and put a seasonal component into the model. Based on this model, the number of openning firms in the retail industry in Canada will decline gradually and keep oscillating in the next few quaters.  
 
 **Number of closing firms for retail industry in Canada**  
 ![forecast_closing_44-45_CA](plots/forecast_Closing_44-45_CA.jpg)   
-From this plot, we notice that in this time series plot, there exists no obvious trend but exists strong seasonalities. Furthermore, the violatility is quite large overall. Therefore auto.arima puts a seasonal component into the model without differencing the time series too much. Based on this model, we predict the number of closing firms in retail industry in Canada will keep oscillating in the next few quaters but stay the same on average.  
+For this plot, there is no obvious trend but has strong seasonalities. Furthermore, the violatility is quite large overall. Therefore auto.arima generates a seasonal component into the model without differencing the time series too much. Based on this model, we predict the number of closing firms in the retail industry in Canada will keep oscillating in the next few quaters but stay the same on average.  
 
 **Number of entry firms for transport and warehousing industry in AB**  
 ![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_AB.jpg)  
-In this plot, we find that the time series looks pretty much like a stationary process. Consequently, auto.arima does not difference our time series, but directly combine a AR(1) model with a S-AR(1) model to fit our data. Based on this combined model, we predict that number of entry firms for transport and warehousing industry in AB province will increase smoothly in the next few quarters.  
+In this plot, we find that the time series looks pretty much like a stationary process. Consequently, auto.arima does not difference our time series, but directly combine a AR(1) model with a S-AR(1) model to fit our data. Based on this combined model, we predict that the number of entry firms for the transportation and warehousing industry in Alberta will increase smoothly in the next few quarters.  
 
 **Number of entry firms for transport and warehousing industry in CA**  
 ![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_CA.jpg)    
 
-From this plot, we can see that this time series originally looks very stationary. Therefore, auto.arima function gives a AR(1) model to fit our data. Based on this model, we predict that in the next few quarters, the industry is stabilize, but with some degree of oscillation.  
+From this plot, we can see that this time series looks very stationary. Therefore, auto.arima function gives a AR(1) model to fit our data. Based on this model, we predict that in the next few quarters, the industry is stable, but with some degree of oscillation.  
 
 To view more visual results, please visit [https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots](https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots).
 
