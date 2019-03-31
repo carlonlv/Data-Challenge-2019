@@ -35,7 +35,7 @@ This table represents prediction of the number of companies'entries in transport
 |    ON     |   48-49  |      435|      288|      494|      427|      467|      295|      471|      393|      452|
 |    OC     |   48-49  |       87|       54|      111|      122|       78|       38|       85|       94|       60|
 
-For more predicted data, please visit [https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots](https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots).
+For more predicted data, please visit [https://github.com/carlonlv/Data-Challenge-2019/tree/master/tables](https://github.com/carlonlv/Data-Challenge-2019/tree/master/tables).
 
 ### Some Visual Results
 
