@@ -40,20 +40,11 @@ To be more specific, basically, we divided the data set into 95 different subset
 |    ON     |    44-45    |33075|32362|32563|32586|33098|32285|32450|32429|32960|  
 |    QC     |    44-45    |21430|21048|21120|21093|21128|20644|20669|20646|20703|  
 |    AB     |    44-45    |10364|10190|10125|10071|10210|10035|9971|9917|10056|  
- 
+
+  
 
 This table represents prediction of the number of active companies in retail industry for each area.
 
-  
-| Geography | Industry | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 |
-|:----------|:---------|---:|---:|---:|---:|---:|---:|---:|---:|
-|    AB     |   48-49    |127|135|150|147|149|156|166|166|168|
-|    BC     |   48-49    |135|118|158|192|160|131|164|196|161|
-|    CA     |   48-49    |879|761|1063|1068|944|800|1087|1082|952|
-|    ON     |    48-49    |435|288|494|427|467|295|471|393|452|
-|    OC    |    48-49    |87|54|111|122|78|38|85|94|60|
-  
- 
 
 ### Some Visual Results
 
@@ -68,7 +59,7 @@ This table represents prediction of the number of active companies in retail ind
 
 
 
-### Explaination for 
+### Explaination for retail industry  
 For example, consider the retailing industry(44-45), we observed that the number of active companies declines over time.  Around 2010, there is a sharp decline in the retail industry, it then fluctuates for a while until another sharp decline around 2016.  Based on the previous trend of this industry, our time series model predicts(blue part) further declining in this industry.  In order to explain this scenario,  we need to examine the number of opening firms and the number of closing firms.  According to the number of opening firms, it is evident there is a significant declining trend in the number of new companies.  Unlikely, the number of closing firms is consistent on average and has a minor declining trend.  Since fewer companies enter and a similar number of companies quit, the overall number of active firms is shrinking and this matches our model's prediction.  
 
 
