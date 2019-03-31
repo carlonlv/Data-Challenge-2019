@@ -15,7 +15,7 @@ To be more specific, basically, we divided the data set into 95 different subset
 
 ## Statistical Results
 
-Here are some samples from the results generated, we will discuss about our interpretation from a statistic prespective and an economic point of view.
+Here are some samples from the results generated, we will discuss about our interpretation from a statistical prespective and an economic point of view.
 
 ### Some Tables and Forms
 
