@@ -186,8 +186,8 @@ timeseries.predict <- function(data, variable, forecast.time) {
   }
 }
 
-timeseries.predict(mydat, variable = "Exit", forecast.time = 8)
-timeseries.predict(mydat, variable = "Entry", forecast.time = 8)
-timeseries.predict(mydat, variable = "Opening", forecast.time = 8)
-timeseries.predict(mydat, variable = "Closing", forecast.time = 8)
-timeseries.predict(mydat, variable = "Active", forecast.time = 8)
+timeseries.predict(mydat, variable = "Exit", forecast.time = 9)
+timeseries.predict(mydat, variable = "Entry", forecast.time = 9)
+timeseries.predict(mydat, variable = "Opening", forecast.time = 9)
+timeseries.predict(mydat, variable = "Closing", forecast.time = 9)
+timeseries.predict(mydat, variable = "Active", forecast.time = 9)
