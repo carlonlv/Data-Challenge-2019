@@ -13,8 +13,6 @@ To be more specific, basically, we divided the data set into 95 different subset
 
 ## Statistical Results
 
-**Following are some predictions generate from ARIMA model, visit our GitHub repo for full result.**
-
 ### Some Tables and Forms
 
 This table represents prediction of the number of active companies in retail industry for each area. 
@@ -37,11 +35,13 @@ This table represents prediction of the number of companies'entries in transport
 |    ON     |   48-49  |      435|      288|      494|      427|      467|      295|      471|      393|      452|
 |    OC     |   48-49  |       87|       54|      111|      122|       78|       38|       85|       94|       60|
 
+For more predicted data, please visit [https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots](https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots).
+
 ### Some Visual Results
 
 For the plots presented below, we have the number of companies as the y-axis and the number of quarters since Q1 of 2000 as the x-axis. The black fraction of the trend represents the data provided and the blue fraction represents the trend predicted using our statistical models. The grey area represents the variability of our predictions, we are 95% confident that the true value lies within this region.  
 
-For more visual results, please visit [https://github.com/carlonlv/Research-Projects/tree/master/SSD_Benchmark_Analysis/plots/overhead_plots](https://github.com/carlonlv/Research-Projects/tree/master/SSD_Benchmark_Analysis/plots/overhead_plots).
+For more visual results, please visit [https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots](https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots).
 
 **Number of active firms for retail industry in Canada**  
 ![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg)  
