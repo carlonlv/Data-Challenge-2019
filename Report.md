@@ -33,6 +33,7 @@ To be more specific, basically, we divided the data set into 95 different subset
 
 
 This table represents prediction of the number of active companies in retail industry for each area. 
+  
 | Geography | Industry | 2017_Q4 | 2018_Q1 | 2018_Q2 | 2018_Q3 | 2018_Q4 | 2019_Q1 | 2019_Q2 | 2019_Q3 | 2019_Q4 |  
 |:----------|:---------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|  
 |    CA     |  44-45   |    90401|    89020|    89069|    88667|    88773|         |    87445|    87018|    87152|  
@@ -45,6 +46,7 @@ This table represents prediction of the number of active companies in retail ind
 
 
 This table represents prediction of the number of companies'entries in transportation and warehousing industry for each area.
+  
 | Geography | Industry | 2017_Q4 | 2018_Q1 | 2018_Q2 | 2018_Q3 | 2018_Q4 | 2019_Q1 | 2019_Q2 | 2019_Q3 | 2019_Q4 |  
 |:----------|:---------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|  
 |    AB     |   48-49  |      127|      135|      150|      147|      149|      156|      166|      166|      168|
