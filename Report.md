@@ -69,10 +69,7 @@ This table represents prediction of the number of active companies in retail ind
 ![forecast_closing_44-45_CA](plots/forecast_Closing_44-45_CA.jpg)   
 
 
-**Number of entry firms for transport and warehousing industry in Canada**  
-![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_CA.jpg)  
-**Number of entry firms for transport and warehousing industry in BC**  
-![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_BC.jpg)  
+
 **Number of entry firms for transport and warehousing industry in AB**  
 ![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_AB.jpg)  
 **Number of entry firms for transport and warehousing industry in ON**  
