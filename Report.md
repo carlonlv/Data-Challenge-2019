@@ -11,7 +11,7 @@ By examing the data, we noticed data entries are recorded quarterly starting fro
 
 To do the predictions, we decided to apply the seasonal ARIMA model to model our data. For each province's each variable, depending on the behavior of our information set, a S-ARIMA model with optimal parameters will be selected to do the modeling. The optimal parameters for each model will be selected using R-function auto.arima, by choosing the parameters to correspond to the lowest Akaike Information Criterion. Also, auto.arima will also select the appropriate order for integration if the time series is non-stationary. Based on our fitted S-ARIMA models, we are able to do the forecast for future values of those variables such as Entry and Exit for each province, and we will also be able to construct a prediction interval for each future value.  
 To be more specific, basically, we divided the data set into 95 different subsets based on provinces and industries. Then we train our model and do the forecast for each province's each industry. Then depending on whether the time series data shows a signal of a stochastic trend, the auto.arima function will decide to difference our times series for several times or not, to make the time series stationary. For some subsets of our data, there may exist a signal of the seasonal pattern in the time series, then the auto.arima function will select appropriate seasonal orders for AR and MA parts of our model, which will take into account the seasonality in our time series. For each optimal S-ARIMA model selected by the function auto.arima, we can then forecast the values up to the fourth quarter in 2019.  
-We implemented the above statistical model with R, you need to have "forecast" library correctly installed, and the dataset imported. The you can run the function "timeseries.predict" and provide the dataset impored, "variable" equals to any one from {"Exit", "Entry", "Opening", "Closing", "Active"}, and "forecast.time" equals to the number of quaters you want to predict since Q3 of the year 2017. The function will save the predicted results in .csv files and the predicted plots in .jpg format. You can find the generated files in Documents if you are a windows user, in #yourusername# folder if you are a mac user.  
+We implemented the above statistical model with R, you need to have "forecast" library correctly installed, and the dataset imported. The you can run the function "timeseries.predict" and provide the dataset imported, "variable" equals to any one from {"Exit", "Entry", "Opening", "Closing", "Active"}, and "forecast.time" equals to the number of quarters you want to predict since Q3 of the year 2017. The function will save the predicted results in .csv files and the predicted plots in .jpg format. You can find the generated files in Documents if you are a windows user, in #yourusername# folder if you are a mac user.  
 To view or download the code, please visit [https://github.com/carlonlv/Data-Challenge-2019/blob/master/R%20scripts/tsa.r](https://github.com/carlonlv/Data-Challenge-2019/blob/master/R%20scripts/tsa.r).
 
 ## Statistical Results
@@ -24,7 +24,7 @@ timeseries.predict(mydat, variable = "Opening", forecast.time = 9)
 timeseries.predict(mydat, variable = "Closing", forecast.time = 9)    
 timeseries.predict(mydat, variable = "Active", forecast.time = 9)    
 ```
-We will discuss about our interpretation from a statistical prespective and an economic point of view.
+We will discuss about our interpretation from a statistical perspective and an economic point of view.
 
 ### Some Tables and Forms
 
@@ -38,7 +38,7 @@ This table represents prediction of the number of active companies in retail ind
 |    QC     |  44-45   |    21430|    21048|    21120|    21093|    21128|    20644|    20669|    20646|    20703|  
 |    AB     |  44-45   |    10364|    10190|    10125|    10071|    10210|    10035|     9971|     9917|    10056|  
 
-This table represents prediction of the number of companies'entries in transportation and warehousing industry for each area.
+This table represents prediction of the number of companies'entry in transportation and warehousing industry for each area.
   
 | Geography | Industry | 2017_Q4 | 2018_Q1 | 2018_Q2 | 2018_Q3 | 2018_Q4 | 2019_Q1 | 2019_Q2 | 2019_Q3 | 2019_Q4 |  
 |:----------|:---------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:| 
@@ -56,15 +56,15 @@ For the plots presented below, we have the number of companies as the y-axis and
 
 **Number of active firms for retail industry in Canada**  
 ![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg)  
-From this plot, we observed a obvious downward trend. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, the number of active firms in retail industry in Canada will decline rapidly in the next few quaters.   
+From this plot, we observed a obvious downward trend. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, the number of active firms in retail industry in Canada will decline rapidly in the next few quarters.   
 
-**Number of openning firms for retail industry in Canada**   
+**Number of opening firms for retail industry in Canada**   
 ![forecast_openning_44-45_CA](plots/forecast_Opening_44-45_CA.jpg)  
-In this plot, there exists obvious downward trend and strong seasonalities. Therefore auto.arima differences the time series for once and put a seasonal component into the model. Based on this model, the number of openning firms in the retail industry in Canada will decline gradually and keep oscillating in the next few quaters.  
+In this plot, there exists obvious downward trend and strong seasonalities. Therefore auto.arima differences the time series for once and put a seasonal component into the model. Based on this model, the number of opening firms in the retail industry in Canada will decline gradually and keep oscillating in the next few quarters.  
 
 **Number of closing firms for retail industry in Canada**  
 ![forecast_closing_44-45_CA](plots/forecast_Closing_44-45_CA.jpg)   
-For this plot, there is no obvious trend but has strong seasonalities. Furthermore, the violatility is quite large overall. Therefore auto.arima generates a seasonal component into the model without differencing the time series too much. Based on this model, we predict the number of closing firms in the retail industry in Canada will keep oscillating in the next few quaters but stay the same on average.  
+For this plot, there is no obvious trend but has strong seasonalities. Furthermore, the variance is quite large overall. Therefore auto.arima generates a seasonal component into the model without differencing the time series too much. Based on this model, we predict the number of closing firms in the retail industry in Canada will keep oscillating in the next few quarters but stay the same on average.  
 
 **Number of entry firms for transport and warehousing industry in AB**  
 ![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_AB.jpg)  
