@@ -70,10 +70,10 @@ From this plot, we notice that in this time series plot, there exists no obvious
 ![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_AB.jpg)  
 In this plot, we find that the time series looks pretty much like a stationary process. Consequently, auto.arima does not difference our time series, but directly combine a AR(1) model with a S-AR(1) model to fit our data. Based on this combined model, we predict that number of entry firms for transport and warehousing industry in AB province will increase smoothly in the next few quarters.  
 
-**Number of entry firms for transport and warehousing industry in QC**  
-![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_QC.jpg)    
+**Number of entry firms for transport and warehousing industry in CA**  
+![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_CA.jpg)    
 
-From this plot, we can see that this time series originally looks very stationary, but beginning at 2016, it has a sudden drop in the number of companies. Therefore, auto.arima function combines a AR(2) with a S-ARIMA(1,1,0) to fit our data. Based on this model, we predict that in the next few quarters, the decline will gradually stabilize, but it may keep oscillating.  
+From this plot, we can see that this time series originally looks very stationary. Therefore, auto.arima function gives a AR(1) model to fit our data. Based on this model, we predict that in the next few quarters, the industry is stabilize, but with some degree of oscillation.  
 
 To view more visual results, please visit [https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots](https://github.com/carlonlv/Data-Challenge-2019/tree/master/plots).
 
