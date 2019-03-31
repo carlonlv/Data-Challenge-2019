@@ -65,7 +65,7 @@ This table represents prediction of the number of companies'entries in transport
 
 **Number of active firms for retail industry in Canada**  
 ![forecast_Active_44-45_CA](plots/forecast_Active_44-45_CA.jpg)  
-From the plot, we can see that there exists a obvious downward trend in our time series. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, we predict that the number of active firms in retail industry in Canada will decline rapidly in the next few quaters.  
+From the plot, we can see that there exists a obvious downward trend in our time series. Therefore auto.arima decides to difference our time series for once to make it stationary. Based on this model, we predict that the number of active firms in retail industry in Canada will decline rapidly in the next few quaters.   
 **Number of openning firms for retail industry in Canada**   
 ![forecast_openning_44-45_CA](plots/forecast_Opening_44-45_CA.jpg)  
 From the plot, we can detect that in this time series plot, there also exists obvious downward trend and strong seasonalities. Therefore, auto.arima will difference the time series for one time and put a seasonal component into the model. Based on this model, we predict the number of openning firms in retail industry in Canada will decline gradually and keep oscillating in the next few quaters.  
@@ -77,7 +77,7 @@ From the plot, we can notice that in this time series plot, there exists no obvi
 
 
 **Number of entry firms for transport and warehousing industry in AB**  
-![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_AB.jpg) 
+![forecast_Entry_48-49_CA](plots/forecast_Entry_48-49_AB.jpg)  
 In this plot, we can find that the time series looks pretty much like a stationary process. Consequently, auto.arima will not difference our time series, but directly combine a AR(1) model with a S-AR(1) model to fit our data. Based on this combined model, we predict that number of entry firms for transport and warehousing industry in AB province will smoothly increase in the next few quarters.  
 
 **Number of entry firms for transport and warehousing industry in QC**  
